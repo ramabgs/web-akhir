@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jersi Pedia</title>
+    <title>Maa Electro</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -70,138 +70,138 @@
 
 <body>
     @include('shared.header')
-    <h4 class="mt-5">Macam-Macam Jersey</h4>
+    <h4 class="mt-5">Berbagai Macam Alat Elektronik</h4>
     <div class="col-md-16 d-flex flex-wrap gap-10 mb-2">
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/juve.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/ac.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey Juventus </p>
+                    <p class="m-0 text-justify"> AC </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
                
           </div>
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/liverpool.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/blender.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey Liverpool </p>
+                    <p class="m-0 text-justify"> Blender </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
                
           </div>
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/mu.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/kalkulator.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey Manchester United </p>
+                    <p class="m-0 text-justify"> Kalkulator </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
                
           </div>
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/munchen.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/kamera.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey Munchen </p>
+                    <p class="m-0 text-justify"> Kamera </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
                
           </div>
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/leicester.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/kipas.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey Leicester </p>
+                    <p class="m-0 text-justify"> Kipas Angin </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
                
           </div>
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/dortmund.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/kompor.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey Dortmund </p>
+                    <p class="m-0 text-justify"> Kompor Listrik </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
                
           </div>
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/madrid.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/kulkas.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey Madrid </p>
+                    <p class="m-0 text-justify"> Kulkas </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
                
           </div>
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/acmilan.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/laptop.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey AC Milan </p>
+                    <p class="m-0 text-justify"> Laptop </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
           </div>
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/lazio.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/mejikom.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey Lazio </p>
+                    <p class="m-0 text-justify"> Magic Com </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
           </div>
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/tottenham.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/mixer.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey Tottenham </p>
+                    <p class="m-0 text-justify"> Mixer </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
           </div>
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/ajax.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/oven.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey Ajax </p>
+                    <p class="m-0 text-justify"> Oven </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
           </div>
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/nasr.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/radio.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey Al-Nasr </p>
+                    <p class="m-0 text-justify"> Radio </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
           </div>
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/brenford.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/sedot debu.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey Brentford </p>
+                    <p class="m-0 text-justify"> Vacum Cleaner </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
           </div>
           <div class="card" style="width: 180px;">
                <div class="card-header m-auto" style="border-radius:10px;">
-                    <img src="{{asset('assets/image/persebaya.png')}}" style="width: 140px; height: 160px;">
+                    <img src="{{asset('assets/image/setrika.png')}}" style="width: 140px; height: 160px;">
                </div>
                <div class="card-body">
-                    <p class="m-0 text-justify"> Jersey Persebaya </p>
+                    <p class="m-0 text-justify"> Setrika </p>
                     <p class="m-0"><i class="fa-solid fa-heart-circle-plus"></i></p>
                </div>
           </div>
